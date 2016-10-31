@@ -3,7 +3,7 @@ import os, sys, time
 
 lines = []
 key_pressed = False
-counter = 95
+counter = 0
 if not(os.path.isfile('highscores.txt')):
 	file = open('highscores.txt', 'w')
 	file.write('George\n')
