@@ -58,7 +58,7 @@ while True:
 	fin_time = round(fin_time,2)
 	os.system('cls')
 	print('YOU WIN! TIME: ' + str(fin_time))
-	if(float(fin_time) > float(high_score)):
+	if(float(fin_time) < float(high_score)):
 		print('You got the high score!')
 		name = input('Name: ')
 		high_score = fin_time
